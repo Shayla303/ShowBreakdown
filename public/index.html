@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ShowBreakdown</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- <div class="nav-links">
+        <a class="nav-link nav-icon" id="shares-icon" href="#">shares</a>
+        <a class="nav-link nav-icon" id="playlist-icon" href="#">playlists</a>
+        <a class="nav-link nav-icon" id="personal-videos-icon" href="#">personal videos</a>
+      </div> -->
+      <div class="empty-div">
+      </div>
+    </nav>
+    <div class="rt-header-content">
+      <!-- <div class="top-right">
+        <a href="#"><img id="user-logo" src="images/user (1).svg" alt="user logo"></a>
+        <a id="username" href="#">Admin Username</a>
+        <a href="#"><img id="down-arrow" src="images/sort-down.svg" alt="pull down arrow"></a>
+      </div> -->
+      <div class="bottom-right">
+        <h1>shame<span class="tilted">l</span>ess</h1>
+        <img id="middle-finger" src="images/middle-finger.svg" alt="middle finger">
+      </div>
+
+        <form id="showform">
+          <input type="text" name="search1" placeholder="Search Episodes" id="search-input">
+          <button type="submit" name="searchButton" id="searchBtn">Search</button>
+          </form>
+
+    </div>
+  </header>
+
+
+
+  <!-- //card container// -->
+  <!-- // search area// -->
+  <section class="main-container">
+    <!-- <form id="showform">
+      <input type="text" name="search1" placeholder="Search Episodes" id="search-input">
+      <button type="submit" name="searchButton" id="searchBtn">Search</button>
+      </form>
+ -->
+      <section class="show">
+
+      </section>
+    <!-- <h2 class="main-container-text">shares</h2> -->
+    <section class="card-container">
+      <!-- <article class="card">
+        <div class="card-img" id="cardClass">
+          <div class="views-container">
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Frank Gallagher</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/frank_gallagher</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+          </div>
+        </div>
+      </article> -->
+      <!-- <article class="card">
+        <div class="card-img" id="fiona">
+          <img class="arrow" src="images/arrow.svg" alt="arrow icon">
+          <div class="views-container">
+            <p class="views">views</p>
+            <p class="view-number">58</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Fiona Gallagher</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/fiona_gallagher</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+            <h3 id="playlist-name">Name of Playlist</h3>
+          </div>
+          <div class="four">
+            <h4 id="attachments">attachments</h4>
+            <h3 id="attachment-number">22</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="lip">
+          <img class="arrow" src="images/arrow.svg" alt="arrow icon">
+          <div class="views-container">
+            <p class="views">views</p>
+            <p class="view-number">36</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Phillip Gallagher</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/phillip_gallagher</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+            <h3 id="playlist-name">Name of Playlist</h3>
+          </div>
+          <div class="four">
+            <h4 id="attachments">attachments</h4>
+            <h3 id="attachment-number">18</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="ian">
+          <img class="arrow" src="images/arrow.svg" alt="arrow icon">
+          <div class="views-container">
+            <p class="views">views</p>
+            <p class="view-number">23</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Ian Gallagher</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/ian_gallagher</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+            <h3 id="playlist-name">Name of Playlist</h3>
+          </div>
+          <div class="four">
+            <h4 id="attachments">attachments</h4>
+            <h3 id="attachment-number">09</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="debbie">
+          <img class="arrow" src="images/arrow.svg" alt="arrow icon">
+          <div class="views-container">
+            <p class="views">views</p>
+            <p class="view-number">67</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Debbie Gallagher</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/debbie_gallagher</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+            <h3 id="playlist-name">Name of Playlist</h3>
+          </div>
+          <div class="four">
+            <h4 id="attachments">attachments</h4>
+            <h3 id="attachment-number">14</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="carl">
+          <img class="arrow" src="images/arrow.svg" alt="arrow icon">
+          <div class="views-container">
+            <p class="views">views</p>
+            <p class="view-number">35</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Carl Gallagher</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/carl_gallagher</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+            <h3 id="playlist-name">Name of Playlist</h3>
+          </div>
+          <div class="four">
+            <h4 id="attachments">attachments</h4>
+            <h3 id="attachment-number">07</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="veronica">
+          <img class="arrow" src="images/arrow.svg" alt="arrow icon">
+          <div class="views-container">
+            <p class="views">views</p>
+            <p class="view-number">62</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Veronica Fisher</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/veronica_fisher</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+            <h3 id="playlist-name">Name of Playlist</h3>
+          </div>
+          <div class="four">
+            <h4 id="attachments">attachments</h4>
+            <h3 id="attachment-number">35</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="kevin">
+          <img class="arrow" src="images/arrow.svg" alt="arrow icon">
+          <div class="views-container">
+            <p class="views">views</p>
+            <p class="view-number">59</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="one">
+            <h3 class="name">Kevin Ball</h3>
+            <p class="date">Monday, 1/23/16 10:22am</p>
+          </div>
+          <div class="two">
+            <div class="card-link-container">
+              <a class="card-link" href="#">https://www.shameless.com/kevin_ball</a>
+            </div>
+          </div>
+          <div class="three">
+            <h4 id="playlist">playlist</h4>
+            <h3 id="playlist-name">Name of Playlist</h3>
+          </div>
+          <div class="four">
+            <h4 id="attachments">attachments</h4>
+            <h3 id="attachment-number">26</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="card hidden">
+
+      </article>
+
+      <article class="card hidden">
+
+      </article>
+
+      <article class="card hidden">
+
+      </article>
+
+      <article class="card hidden">
+
+      </article>-->
+
+    </section>
+  </section>
+
+</body>
+<script src="app.js" charset="utf-8"></script>
+</html>
